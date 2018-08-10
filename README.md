@@ -27,7 +27,7 @@ PS> cd laravel
 PS> yarn install / npm install
 PS> composer install
 PS> artisan migrate --seed
-PS> artisan key: generate
+PS> artisan key:generate
 PS> artisan serve
 ```
 
@@ -47,7 +47,7 @@ na artisan serve
 ---
 
 ### Initialisatie
-Zorg dat artisan serve tergelijkertijd aanligt!
+Zorg dat artisan serve tegelijkertijd aanligt!
 
 ```
 PS> cd angular
