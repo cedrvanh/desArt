@@ -1,0 +1,76 @@
+<app-header></app-header>
+<div class="container">
+
+  <h1>Populairste veilingen</h1>
+  <div class="row">  
+    <app-auction-row></app-auction-row>
+  </div>
+
+  <h1>Onze categoriën</h1>
+  <div class="row">
+    <app-category-card title="Schilderijen"></app-category-card>
+    <app-category-card title="Sculpturen"></app-category-card>
+    <app-category-card title="Fotografie"></app-category-card>
+    <app-category-card title="Digitale Kunst"></app-category-card>
+  </div>
+</div>
+  
+<div class="info">
+  <div class="container">
+    <div class="row">
+      <div class="info__content mg">
+        <div class="info__text">
+          <h4>Log in</h4>
+          <p>Meld u aan via Facebook of registreer met uw e-mailadres.</p>
+  
+          <h4>Bied mee</h4>
+          <p>Bied op uw favoriete kunstwerken en maak kans om hem mee naar huis te nemen.</p>
+  
+          <h4>Verkoop zelf</h4>
+          <p>Verkoop je eigen kunstwerken aan een voordelige prijs naar uw wens.</p>
+          <br><br>
+          <a class="btn">Verkoop je eigen kunst</a>
+        </div>
+        <figure class="info__image">
+          <img src="assets/icons/chat.svg" alt="Chat icoon">
+        </figure>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<div class="container">
+  <div class="auctions-top">
+      <h1>Schilderijen</h1>
+      <a routerLink="/veilingen">Bekijk meer</a>
+  </div>
+  <div class="row">
+    <app-auction-row></app-auction-row>  
+  </div>
+
+  <div class="auctions-top">
+      <h1>Fotografie</h1>
+      <a routerLink="/veilingen">Bekijk meer</a>
+  </div>
+  <div class="row">
+    <app-auction-row></app-auction-row>  
+  </div>
+
+  <div class="auctions-top">
+      <h1>Sculpturen</h1>
+      <a routerLink="/veilingen">Bekijk meer</a>
+  </div>
+  <div class="row">
+    <app-auction-row></app-auction-row> 
+  </div>
+
+  <div class="auctions-top">
+      <h1>Digitale Kunst</h1>
+      <a routerLink="/veilingen">Bekijk meer</a>
+  </div>
+  <div class="row">
+    <app-auction-row></app-auction-row>  
+  </div>
+</div>
+
+<app-footer></app-footer>
