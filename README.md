@@ -1,26 +1,21 @@
-Web Development II 2017-2018
+desArt
 ============================
 
-Student: CEDRIC VANHAEGENBERG
-
-> Artevelde University College Ghent
-
-desArt
-----------------
+desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.
 
 ## Backoffice 
 --- 
 
-### Configuratie
+### Config
 
-Verander .env
+Change .env
 ```
 DB_DATABASE = art_auction
 DB_USERNAME = root
 DB_PASSWORD = secret
 ```
 
-### Initialisatie
+### Initialisation
 
 ```
 PS> cd laravel
@@ -32,13 +27,13 @@ PS> artisan serve
 ```
 
 ### API
-na artisan serve
+after artisan serve
 
 - 127.0.0.1:8000/api/auctions
 - 127.0.0.1:8000/api/users
 - 127.0.0.1:8000/api/categories
 
-### TEST GEBRUIKER
+### TEST USER
 
 - test@example.com
 - secret
@@ -46,8 +41,8 @@ na artisan serve
 ## Frontoffice
 ---
 
-### Initialisatie
-Zorg dat artisan serve tegelijkertijd aanligt!
+### Initialisation
+Make sure you're running artisan serve
 
 ```
 PS> cd angular
@@ -55,6 +50,6 @@ PS> yarn install / npm install
 PS> ng serve
 ```
 
-### Online dossier
+### Online guide
 
- - Productiedossier <https://gdmgent-1718-webdev2.github.io/1718-webdev2-project-cedrvanh/>
+ - Production file <https://gdmgent-1718-webdev2.github.io/1718-webdev2-project-cedrvanh/>
